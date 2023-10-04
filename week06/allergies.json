@@ -1,39 +1,14 @@
 {
-  "resourceType": "Bundle",
-  "type": "searchset",
-  "total": 3,
-  "link": [
-    {
-      "relation": "self",
-      "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance?patient=Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
-    }
-  ],
   "entry": [
     {
-      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TBwnNbrAqC0Qw5Ha7AFT-2AB",
-      "link": [
-        {
-          "relation": "self",
-          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TBwnNbrAqC0Qw5Ha7AFT-2AB"
-        }
-      ],
-      "search": {
-        "mode": "match"
-      },
       "resource": {
         "resourceType": "AllergyIntolerance",
         "recordedDate": "2015-08-24T23:11:36Z",
         "status": "confirmed",
         "criticality": "CRITL",
-        "id": "TBwnNbrAqC0Qw5Ha7AFT-2AB",
         "onset": "2012-11-07T00:00:00Z",
-        "recorder": {
-          "display": "MOORE, NICK",
-          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Practitioner/TItWfhjChtlo0pFh9nzctSQB"
-        },
         "patient": {
-          "display": "Jason Argonaut",
-          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+          "display": "Jason Argonaut"
         },
         "substance": {
           "text": "PENICILLIN G",
@@ -70,16 +45,6 @@
       }
     },
     {
-      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TPcWiBG2h2E114Vh0sRT8fQB",
-      "link": [
-        {
-          "relation": "self",
-          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TPcWiBG2h2E114Vh0sRT8fQB"
-        }
-      ],
-      "search": {
-        "mode": "match"
-      },
       "resource": {
         "resourceType": "AllergyIntolerance",
         "recordedDate": "2015-11-07T20:55:10Z",
@@ -87,13 +52,8 @@
         "criticality": "CRITL",
         "id": "TPcWiBG2h2E114Vh0sRT8fQB",
         "onset": "2010-05-02T00:00:00Z",
-        "recorder": {
-          "display": "MOORE, NICK",
-          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Practitioner/TItWfhjChtlo0pFh9nzctSQB"
-        },
         "patient": {
-          "display": "Jason Argonaut",
-          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+          "display": "Jason Argonaut"
         },
         "substance": {
           "text": "SHELLFISH-DERIVED PRODUCTS",
@@ -119,16 +79,6 @@
       }
     },
     {
-      "fullUrl": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TKebKfLXzu6Sp.LY-IpvpmQB",
-      "link": [
-        {
-          "relation": "self",
-          "url": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/AllergyIntolerance/TKebKfLXzu6Sp.LY-IpvpmQB"
-        }
-      ],
-      "search": {
-        "mode": "match"
-      },
       "resource": {
         "resourceType": "AllergyIntolerance",
         "recordedDate": "2015-11-07T20:56:34Z",
@@ -136,13 +86,8 @@
         "criticality": "CRITH",
         "id": "TKebKfLXzu6Sp.LY-IpvpmQB",
         "onset": "2014-03-07T00:00:00Z",
-        "recorder": {
-          "display": "MOORE, NICK",
-          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Practitioner/TItWfhjChtlo0pFh9nzctSQB"
-        },
         "patient": {
-          "display": "Jason Argonaut",
-          "reference": "https://open-ic.epic.com/FHIR/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoB"
+          "display": "Jason Argonaut"
         },
         "substance": {
           "text": "STRAWBERRY",
@@ -170,6 +115,50 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "recordedDate": "2015-08-24T23:11:36Z",
+        "status": "confirmed",
+        "criticality": "CRITL",
+        "onset": "1978-12-08T00:00:00Z",
+        "patient": {
+          "display": "Paul Boal"
+        },
+        "substance": {
+          "text": "PENICILLIN G",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "7980",
+              "display": "PENICILLIN G"
+            },
+            {
+              "system": "http://fdasis.nlm.nih.gov",
+              "code": "Q42T66VG0C",
+              "display": "PENICILLIN G"
+            }
+          ]
+        },
+        "reaction": [
+          {
+            "certainty": "confirmed",
+            "onset": "1978-12-08T00:00:00Z",
+            "manifestation": [
+              {
+                "text": "Bruising"
+              }
+            ],
+            "note": {
+              "text": "Do not prescribe!"
+            }
+          }
+        ],
+        "note": {
+          "text": "Do not prescribe!"
+        }
       }
     }
   ]
